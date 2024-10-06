@@ -1,6 +1,9 @@
+let contador = 0;
+
 document.getElementById('calcular').addEventListener('click', function () {
   let valorTransacao = parseFloat(document.getElementById('valor-transacao').value);
   let complexidade = document.getElementById('complexidade').value;
+  let valorContador = document.getElementById('contador');
   let precoGas;
 
   switch(complexidade) {
@@ -25,4 +28,7 @@ document.getElementById('calcular').addEventListener('click', function () {
   } else {
     document.getElementById('resultado').innerHTML = '<p style="color:red;"> Por favor, insira um valor de transação válido. </p>';
   }
+
+  contador++;
+  valorContador.innerHTML= `Contador : ${contador}`;
 });
