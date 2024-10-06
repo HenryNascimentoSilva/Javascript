@@ -30,5 +30,5 @@ document.getElementById('calcular').addEventListener('click', function () {
   }
 
   contador++;
-  valorContador.innerHTML= `Contador : ${contador}`;
+  valorContador.innerHTML= `<p>Contador : ${contador}</p>`;
 });
