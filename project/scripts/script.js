@@ -23,6 +23,6 @@ document.getElementById('calcular').addEventListener('click', function () {
     <p> Complexidade: ${complexidade.charAt(0).toUpperCase() + complexidade.slice(1)}</p>
     <p><strong>Custo estimado do Gas: ${custoGas.toFixed(2)} DOT </strong></p>`
   } else {
-    document.getElementById('resultado').innerHTML = '<p style="color:red;"> Por favor, insira um avlor de transação válido. </p>';
+    document.getElementById('resultado').innerHTML = '<p style="color:red;"> Por favor, insira um valor de transação válido. </p>';
   }
 });
