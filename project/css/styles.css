@@ -56,3 +56,16 @@ button:hover {
   font-size: 9px;
   font-weight: bold;
 }
+
+#historico {
+  margin-top: 20px;
+}
+
+#lista-historico {
+  list-style: none;
+  padding: 0;
+}
+
+#lista-historico li {
+  margin-bottom: 10px;
+}

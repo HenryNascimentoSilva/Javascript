@@ -19,11 +19,20 @@
         <option value="alta">Alta</option>
       </select>
 
+      <label for="moeda-conversao">Converter para Moeda: </label>
+      <select id="moeda-conversao">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+      </select>
+
       <button type="button" id="calcular">Calcular Preço do Gas</button>
     </form>
 
     <div id="resultado"></div>
     <div id="contador"></div>
+    <div id="historico">
+      <ul id="lista-historico"></ul>
+    </div>
 
     <script src="scripts/script.js"></script>
   </body>
